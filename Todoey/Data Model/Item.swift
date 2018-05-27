@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Item {
+class Item: Encodable, Decodable {
     
     // Properties
     var title : String = ""
