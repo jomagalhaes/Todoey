@@ -11,7 +11,7 @@ import CoreData
 
 class CategoryViewController: UITableViewController {
 
-    var c = [Category]()
+    var categoryArray = [Category]()
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
 
